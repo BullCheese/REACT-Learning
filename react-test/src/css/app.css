@@ -1,0 +1,5 @@
+.container {
+    box-sizing: border-box;
+    border-color: black;
+    border-radius: 2px;
+}
