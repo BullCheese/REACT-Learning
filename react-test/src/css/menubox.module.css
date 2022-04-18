@@ -1,0 +1,15 @@
+.MenuBox{
+    display: flex;
+    flex:1;
+    flex-direction: column;
+    align-items: flex-start;
+    flex-wrap: wrap;
+}
+
+.MenuContainer{
+    display: flex;
+    width: 35%;
+    flex-direction: row;
+    align-items: stretch;
+    z-index: 5;
+}

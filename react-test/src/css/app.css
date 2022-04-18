@@ -1,5 +1,13 @@
-.container {
+.Container{
     box-sizing: border-box;
     border-color: black;
     border-radius: 2px;
+    display: flex;
+    background-color: black;
+}
+
+.MainContainer{
+    position: absolute;
+    margin: 50px;
+    z-index: 10;
 }
