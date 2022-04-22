@@ -1,5 +1,13 @@
-.container {
+.mainContainer {
+    margin: 10px;
+    display: flex;
     box-sizing: border-box;
     border-color: black;
     border-radius: 2px;
+}
+
+.menuContainer{
+    border-color: black;
+    border-radius: 2px;
+    border-style: solid;
 }

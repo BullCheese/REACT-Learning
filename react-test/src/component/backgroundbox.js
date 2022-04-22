@@ -13,14 +13,14 @@ const Backgroundbox = (props) => {
           {
             if (groundLength > 900){
            // console.log(groundLength);
-            return (parseInt(groundLength,10) + 10);
+            return (parseInt(groundLength,10) + 40);
             }
             return groundLength;
           }
         case "ArrowLeft":{
-          if (groundLength > 1600){
+          if (groundLength > 2600){
             //console.log(groundLength);
-            return (parseInt(groundLength,10) - 10);
+            return (parseInt(groundLength,10) - 40);
             }
             return groundLength;
         }

@@ -14,29 +14,28 @@ const Character = (props) =>{
         case "ArrowRight":
           {
             if (xPosition >= 0){
-            return [(parseInt(xPosition,10) + 10),yPosition];
+            return [(parseInt(xPosition,10) + 40),yPosition];
             } else {
-              xPosition = 0;
               return [xPosition,yPosition];}
           }
         case "ArrowLeft":{
           if (xPosition > 99){
            // console.log(xPosition);
-            return [(parseInt(xPosition,10) - 10),yPosition];
+            return [(parseInt(xPosition,10) - 40),yPosition];
             }
             return [xPosition,yPosition];
         }
         case "ArrowDown":{
           if (yPosition < 620){
            // console.log(xPosition);
-            return [xPosition,(parseInt(yPosition,10) + 10)];
+            return [xPosition,(parseInt(yPosition,10) + 40)];
             }
             return [xPosition,yPosition];
         }
         case "ArrowUp":{
           if (yPosition > 120){
             // console.log(xPosition);
-             return [xPosition,(parseInt(yPosition,10) - 10)];
+             return [xPosition,(parseInt(yPosition,10) - 40)];
              }
              return [xPosition,yPosition];
         }
